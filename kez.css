@@ -1,0 +1,67 @@
+﻿body
+{
+    background-color: dodgerblue;
+}
+
+#alkar{
+    margin-left: -10px;
+    margin-top: 500px;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    background-color: cornsilk;
+}
+
+#kez {
+    margin-top: -80px;
+    margin-left: 300px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: cornsilk;
+    border-radius: 10%;
+}
+
+#mujj{
+    margin-top: 0px;
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    background-color: cornsilk;
+    border-radius: 35%;
+    animation: elmozgas 5s infinite;
+    animation-delay: 2s;
+}
+
+#hujj {
+    margin-left: 7px;
+    margin-top: 0px;
+    position: absolute;
+    width: 50px;
+    height: 200px;
+    background-color: cornsilk;
+    border-radius: 35%;
+    animation: mozgas 5s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes mozgas{
+    from{
+        top: 0px;
+    }
+
+    to{
+        bottom: 130px;
+    }
+}
+
+@keyframes elmozgas{
+    from {
+        right: 0px;
+    }
+
+    to{
+        left: 230px;
+    }
+
+}
